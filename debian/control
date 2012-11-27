@@ -1,0 +1,12 @@
+Source: ros-groovy-ecl-manipulators
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-ecl-formatters,ros-groovy-ecl-license,ros-groovy-ecl-exceptions,ros-groovy-catkin,ros-groovy-ecl-geometry
+Homepage: http://wiki.ros.org/ecl_manipulators
+Standards-Version: 3.9.2
+
+Package: ros-groovy-ecl-manipulators
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-ecl-formatters,ros-groovy-ecl-exceptions,ros-groovy-ecl-geometry
+Description: Deploys various manipulation algorithms, currently just feedforward filters (interpolations).
