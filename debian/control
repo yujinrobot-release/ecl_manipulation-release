@@ -1,0 +1,12 @@
+Source: ros-groovy-ecl-manipulation
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-groovy-ecl-core,ros-groovy-ecl-lite,ros-groovy-ecl-manipulators,ros-groovy-ecl-tools
+Homepage: http://www.ros.org/wiki/ecl_manipulation
+Standards-Version: 3.9.2
+
+Package: ros-groovy-ecl-manipulation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-ecl-core,ros-groovy-ecl-lite,ros-groovy-ecl-manipulators,ros-groovy-ecl-tools
+Description: Includes basic manipulation related structures as well as a few algorithms currently used at Yujin Robot.
