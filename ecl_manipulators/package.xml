@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>ecl_manipulators</name>
-  <version>0.50.0</version>
+  <version>0.50.1</version>
   <description>
     Deploys various manipulation algorithms, currently just 
     feedforward filters (interpolations). 
@@ -13,7 +13,7 @@
   <url type="bugtracker">https://github.com/stonier/ecl_core/issues</url>
   <author email="d.stonier@gmail.com">Daniel Stonier</author> -->
 
-  <build_depend>catkin</build_depend>
+  <buildtool_depend>catkin</buildtool_depend>
   <build_depend>ecl_license</build_depend>
   <build_depend>ecl_exceptions</build_depend>
   <build_depend>ecl_geometry</build_depend>
