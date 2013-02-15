@@ -1,0 +1,12 @@
+Source: ros-groovy-ecl
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), 
+Homepage: http://www.ros.org/wiki/ecl
+Standards-Version: 3.9.2
+
+Package: ros-groovy-ecl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-groovy-ecl-core,ros-groovy-ecl-lite,ros-groovy-ecl-manipulation,ros-groovy-ecl-tools,ros-groovy-ecl-navigation
+Description: Metapackage bringing all of ecl together.
