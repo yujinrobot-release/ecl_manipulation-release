@@ -1,6 +1,6 @@
 <package>
   <name>ecl</name>
-  <version>0.50.2</version>
+  <version>0.60.0</version>
   <description>
     Metapackage bringing all of ecl together.
   </description>
@@ -8,9 +8,10 @@
   <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
   <license>BSD</license>
   <url type="website">http://www.ros.org/wiki/ecl</url>
-  <url type="repository">https://github.com/stonier/ecl_manipulation</url>
-  <url type="bugtracker">https://github.com/stonier/ecl_manipulation/issues</url>
+  <!--<url type="repository">https://github.com/stonier/ecl_manipulation</url>
+  <url type="bugtracker">https://github.com/stonier/ecl_manipulation/issues</url> -->
 
+  <buildtool_depend>catkin</buildtool_depend>
   <run_depend>ecl_tools</run_depend>
   <run_depend>ecl_lite</run_depend>
   <run_depend>ecl_core</run_depend>
