@@ -1,0 +1,12 @@
+Source: ros-hydro-ecl-manipulators
+Section: misc
+Priority: extra
+Maintainer: "Daniel Stonier <d.stonier@gmail.com>"
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-ecl-exceptions, ros-hydro-ecl-formatters, ros-hydro-ecl-geometry, ros-hydro-ecl-license
+Homepage: http://wiki.ros.org/ecl_manipulators
+Standards-Version: 3.9.2
+
+Package: ros-hydro-ecl-manipulators
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-ecl-exceptions, ros-hydro-ecl-formatters, ros-hydro-ecl-geometry, ros-hydro-ecl-license
+Description: Deploys various manipulation algorithms, currently just feedforward filters (interpolations).
