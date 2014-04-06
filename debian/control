@@ -1,0 +1,12 @@
+Source: ros-indigo-ecl-manipulation
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-catkin
+Homepage: http://www.ros.org/wiki/ecl_manipulation
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ecl-manipulation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-ecl-manipulators
+Description: Includes basic manipulation related structures as well as a few algorithms currently used at Yujin Robot.
