@@ -1,3 +1,27 @@
+## ecl_manipulation (jade) - 0.60.0-0
+
+The packages in the `ecl_manipulation` repository were released into the `jade` distro by running `/usr/bin/bloom-release ecl_manipulation --track jade --rosdistro jade --new-track` on `Tue, 20 Oct 2015 03:51:15 -0000`
+
+These packages were released:
+- `ecl`
+- `ecl_manipulation`
+- `ecl_manipulators`
+
+Version of package(s) in repository `ecl_manipulation`:
+- upstream repository: https://github.com/stonier/ecl_manipulation.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.60.0-0`
+
+Versions of tools used:
+- bloom version: `0.5.20`
+- catkin_pkg version: `0.2.3`
+- rosdep version: `0.10.28`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.35`
+
+
 ## ecl_manipulation (indigo) - 0.60.0-1
 
 The packages in the `ecl_manipulation` repository were released into the `indigo` distro by running `/usr/bin/bloom-release ecl_manipulation -t indigo -r indigo` on `Mon, 26 May 2014 05:11:01 -0000`
