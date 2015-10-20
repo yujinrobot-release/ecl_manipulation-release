@@ -1,0 +1,12 @@
+Source: ros-jade-ecl
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin
+Homepage: http://www.ros.org/wiki/ecl
+Standards-Version: 3.9.2
+
+Package: ros-jade-ecl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-ecl-core, ros-jade-ecl-lite, ros-jade-ecl-manipulation, ros-jade-ecl-navigation, ros-jade-ecl-tools
+Description: Metapackage bringing all of ecl together.
