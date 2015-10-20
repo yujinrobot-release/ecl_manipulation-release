@@ -1,0 +1,12 @@
+Source: ros-jade-ecl-manipulators
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-ecl-exceptions, ros-jade-ecl-formatters, ros-jade-ecl-geometry, ros-jade-ecl-license
+Homepage: http://wiki.ros.org/ecl_manipulators
+Standards-Version: 3.9.2
+
+Package: ros-jade-ecl-manipulators
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-ecl-exceptions, ros-jade-ecl-formatters, ros-jade-ecl-geometry, ros-jade-ecl-license
+Description: Deploys various manipulation algorithms, currently just feedforward filters (interpolations).
