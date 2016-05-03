@@ -1,0 +1,12 @@
+Source: ros-kinetic-ecl
+Section: misc
+Priority: extra
+Maintainer: Daniel Stonier <d.stonier@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://www.ros.org/wiki/ecl
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-ecl
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-ecl-core, ros-kinetic-ecl-lite, ros-kinetic-ecl-manipulation, ros-kinetic-ecl-navigation, ros-kinetic-ecl-tools
+Description: Metapackage bringing all of ecl together.
