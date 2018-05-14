@@ -1,3 +1,29 @@
+## ecl_manipulation (melodic) - 0.60.2-0
+
+The packages in the `ecl_manipulation` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --track melodic --rosdistro melodic ecl_manipulation` on `Mon, 14 May 2018 12:02:11 -0000`
+
+These packages were released:
+- `ecl`
+- `ecl_manipulation`
+- `ecl_manipulators`
+
+Version of package(s) in repository `ecl_manipulation`:
+
+- upstream repository: https://github.com/stonier/ecl_manipulation.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.60.2-0`
+
+Versions of tools used:
+
+- bloom version: `0.6.4`
+- catkin_pkg version: `0.4.2`
+- rosdep version: `0.12.2`
+- rosdistro version: `0.6.1`
+- vcstools version: `0.1.40`
+
+
 ## ecl_manipulation (kinetic) - 0.60.1-1
 
 The packages in the `ecl_manipulation` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --track kinetic --rosdistro kinetic ecl_manipulation` on `Tue, 03 May 2016 08:57:40 -0000`
